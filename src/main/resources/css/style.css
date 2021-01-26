@@ -1,0 +1,18 @@
+#root {
+    margin-left: 40%;
+    margin-top: 15%;
+    border: solid;
+    width: 250px;
+}
+
+input{
+    width:80px;
+    height:50px;
+    font-size: 20px;
+}
+
+#result{
+    width: 156px;
+    text-align: center;
+    font-size: 30px;
+}
