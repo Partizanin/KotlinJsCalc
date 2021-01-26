@@ -70,4 +70,4 @@ fun init() {
     }
 }
 
-fun greet() = "kotlin2"
+fun greet() = "world"

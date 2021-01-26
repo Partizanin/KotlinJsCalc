@@ -17,13 +17,12 @@ dependencies {
 kotlin {
     js(LEGACY) {
         browser {
-            distribution {
-                directory= File("$projectDir/src/main/resources/js")
-            }
+//            distribution {
+//                directory= File("$projectDir/src/main/resources/js")
+//            }
             binaries.executable()
             webpackTask {
                 cssSupport.enabled = true
-                destinationDirectory = File("$projectDir/src/main/resources/js")
             }
             runTask {
                 cssSupport.enabled = true
